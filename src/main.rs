@@ -1,6 +1,4 @@
-/*
-contoh komentar
-*/
 fn main() {
-    println!("Hello, world!");
+    let teks: &str = "Hello World"; // pastikan tambahkan tipe datanya
+    println!("{}", teks); // teknik formatted print
 }
